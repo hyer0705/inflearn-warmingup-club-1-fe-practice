@@ -8,6 +8,11 @@ function App() {
       <Header />
       <Input />
       <PokemonGallery />
+      <div className="flex justify-center mb-8">
+        <button className="bg-slate-900 rounded-md border-0 text-white font-semibold py-2 px-4">
+          MORE
+        </button>
+      </div>
     </>
   );
 }
