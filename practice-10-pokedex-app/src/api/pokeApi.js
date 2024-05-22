@@ -9,3 +9,7 @@ export function getPokemons() {
 export function getPokemon(url) {
   return axios.get(url);
 }
+
+export function getPokemonColor(name) {
+  return axios.get(`${baseURL}/pokemon-species/${name}`);
+}
