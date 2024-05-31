@@ -32,7 +32,7 @@ export default function PokemonCard({ url, name }) {
   if (error) return <div>Error...</div>;
 
   return (
-    <div className="h-52 border rounded-xl bg-slate-800">
+    <div className="h-52 border rounded-xl bg-slate-800 cursor-pointer">
       <div className="flex justify-end px-2 pt-2">
         <h4
           className={`font-medium ${colorConfig.text[pokemonColor]}`}
